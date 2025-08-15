@@ -1,3 +1,5 @@
+Idea: So the website will be about cybersecurity best practices and insightful informations.
+
 Structure plan for the CyberShield website:
 
 1. Header
