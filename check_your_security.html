@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Check Your Security</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
-        <h1>Check Your Security</h1>
+        <h1>CyberShield</h1>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="news.html">News</a>
@@ -23,12 +24,29 @@
     </header>
 
     <main>
-      <section id="#">
-        <h2></h2>
-        <p></p>
-      </section>
+      <div lass="password-tester">
+        <h2>Test Your Password Strength</h2>
+        <input
+          type="password"
+          id="passwordInput"
+          placeholder="Enter your password"
+        />
+        <button id="checkPasswordButton">Check Password</button>
+        <p id="passwordStrength"></p>
+      </div>
     </main>
 
-    <footer>© CyberShield 2025 by Adam Marunowski</footer>
+    <footer>
+      <div class="footer-content">
+        <img
+          src="images/logo_banner.jpg"
+          alt="CyberShield Banner"
+          class="footer-banner"
+          width="1000"
+          height="auto"
+        />
+        <p>© CyberShield 2025. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
