@@ -1,11 +1,5 @@
-Idea: So the website will be about cybersecurity best practices and insightful informations.
+CyberShield is an educational platform dedicated to helping people understand the essentials of cybersecurity. In today’s digital world, personal data and online activities are constantly exposed to risks, from weak passwords to large-scale cyber threats.
 
-Structure plan for the CyberShield website:
+This website is designed to be a practical guide for anyone looking to stay safe online. Whether you are a beginner exploring the basics or someone curious about international regulations, CyberShield provides clear explanations, best practices, and useful resources.
 
-1. Header
-2. Introduction Section
-3. Basic Practices Section
-4. Hardware and Tools Section
-5. Global Regulations Section
-6. Check Your Security Section
-7. Footer
+Our mission is simple: make cybersecurity easy to understand and accessible for everyone. Through step-by-step advice, curated tools, and real-world examples, we aim to help users build habits that protect both their digital identity and everyday life.
