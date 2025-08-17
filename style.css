@@ -193,3 +193,20 @@ footer {
   color: #00ff66;
   transform: scale(1.05);
 }
+
+.password-tester input {
+  background-color: #00ff66; /* neon green */
+  color: #000; /* black text */
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.password-tester input::placeholder {
+  color: #000;
+  opacity: 0.7;
+}
