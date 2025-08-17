@@ -11,15 +11,14 @@
         const audio = document.getElementById("backgroundMusic");
         const playBtn = document.getElementById("playMusic");
 
-        // jeśli muzyka była wcześniej włączona, odtwórz ją automatycznie
         if (localStorage.getItem("musicPlaying") === "true") {
           audio.play();
-          playBtn.style.display = "none"; // ukryj przycisk
+          playBtn.style.display = "none"; // button hide
         }
 
         playBtn.addEventListener("click", () => {
           audio.play();
-          playBtn.style.display = "none"; // po kliknięciu ukryj przycisk
+          playBtn.style.display = "none"; // after press hides button
           localStorage.setItem("musicPlaying", "true");
         });
       });
@@ -29,7 +28,6 @@
       rel="stylesheet"
     />
     <style>
-      /* --- Przyciski w stylu reszty strony --- */
       #playMusic {
         background-color: #00ff66;
         color: #000;
