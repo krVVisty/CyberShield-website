@@ -6,6 +6,10 @@
     <title>Check Your Security</title>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -19,20 +23,18 @@
         <a href="check_your_security.html">Check Your Security</a>
         <a href="hardware_and_tools.html">Hardware and Tools</a>
         <a href="resources.html">Resources</a>
-        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main>
-      <div lass="password-tester">
+      <div class="password-tester">
         <h2>Test Your Password Strength</h2>
         <input
           type="password"
           id="passwordInput"
           placeholder="Enter your password"
         />
-        <button id="checkPasswordButton">Check Password</button>
-        <p id="passwordStrength"></p>
+        <p>Password strength: <span id="passwordStrength">-</span></p>
       </div>
     </main>
 
@@ -45,6 +47,7 @@
           width="1000"
           height="auto"
         />
+        <h2><a href="contact.html">contact us</a></h2>
         <p>© CyberShield 2025. All rights reserved.</p>
       </div>
     </footer>

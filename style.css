@@ -1,0 +1,195 @@
+/* RESET / NORMALISATION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+/* BODY STYLING */
+body {
+  background-color: #000; /* black background */
+  font-family: "Orbitron", sans-serif; /* consistent font */
+  color: #00ff66; /* neon green text */
+  line-height: 1.6; /* readability */
+  padding: 1rem;
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66, 0 0 15px #00ff66; /* neon glow */
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* distribute links evenly */
+  align-items: center;
+  gap: 1rem; /* spacing between links */
+  border-bottom: 3px solid #00ff66; /* neon green underline */
+  padding-bottom: 0.5rem;
+}
+
+a {
+  color: #00ff66;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+a:hover {
+  transform: scale(1.2);
+  color: black;
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66, 0 0 15px #00ff66;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+  color: black;
+  text-shadow: 0 0 5px #00ff66, 0 0 10px #00ff66, 0 0 15px #00ff66;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* FOOTER */
+footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+.footer-banner {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* CONTACT SECTION */
+#ContactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+#ContactSection form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+#ContactSection input,
+#ContactSection textarea {
+  background-color: #00ff66;
+  color: #000;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Orbitron", sans-serif;
+}
+
+#ContactSection input::placeholder,
+#ContactSection textarea::placeholder {
+  color: #000;
+  opacity: 0.7;
+}
+
+#ContactSection textarea {
+  width: 80%; /* keep wide message field */
+  align-self: stretch; /* override center alignment */
+  text-align: left;
+}
+
+#ContactSection button {
+  background-color: #00ff66;
+  color: #000;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#ContactSection button:hover {
+  transform: scale(1.05);
+  background-color: #66ff99;
+}
+
+/* CONTACT SECTION */
+#ContactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center all elements horizontally */
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+#ContactSection form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  width: 100%; /* make form responsive */
+}
+
+#ContactSection input,
+#ContactSection textarea {
+  background-color: #00ff66;
+  color: #000;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Orbitron", sans-serif;
+  width: 100%; /* make textarea full width like inputs */
+  box-sizing: border-box; /* include padding in width */
+}
+
+#ContactSection textarea {
+  text-align: left; /* normal text alignment inside textarea */
+}
+
+#ContactSection button {
+  background-color: #00ff66;
+  color: #000;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+#ContactSection button:hover {
+  transform: scale(1.05);
+  background-color: #66ff99;
+}
+
+/* EMAIL LINKS IN CONTACT SECTION */
+#ContactSection a {
+  color: black; /* neon blue */
+  text-decoration: none;
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+#ContactSection a:hover {
+  color: #00ff66;
+  transform: scale(1.05);
+}
